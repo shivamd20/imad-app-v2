@@ -27,7 +27,7 @@ function createTemplate(data)
     var content=data.content;
     var heading=data.heading;
     
-        var htmlTemplate={
+        var htmlTemplate=
             `<html>
           <head>
             <title> $(title) </title>
@@ -52,9 +52,11 @@ function createTemplate(data)
                     </div>
                 </div>
           </body>
-        </html>'
+        </html>`;
+        
+        
             
-        }
+
         
         return htmlTemplate;
 }
