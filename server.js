@@ -5,19 +5,39 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var articles = {
+    articleOne:{ 
+                title:"Article One:ramesh",
+            heading:"Article",
+              date:"5 sept",
+              content:      `   <p>
+                            this is thhe first article  this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article 
+                        </p>
+                         <p>
+                            this is thhe first article  this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article 
+                        </p>
+                         <p>
+                            this is thhe first article  this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article 
+                        </p>`},
+    articleTwo:{
+                     title:"Article Two:Suresh",
+            heading:"Article Two",
+              date:"5 sept",
+              content:      `   <p>
+                            this is thhe second article 
+                        </p>`},
+    articleThree:{
+        
+                     title:"Article Three:Mahes",
+            heading:"Article Three",
+              date:"9 sept",
+              content:      `   <p>
+                            this is thhe Third article 
+                        </p>`
+    }
+};
 var articleOne ={
-    title:"Article One:ramesh",
-    heading:"Article",
-      date:"5 sept",
-      content:      `   <p>
-                    this is thhe first article  this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article 
-                </p>
-                 <p>
-                    this is thhe first article  this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article 
-                </p>
-                 <p>
-                    this is thhe first article  this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article this is thhe first article 
-                </p>`
+   
 }
 
 function createTemplate(data)
