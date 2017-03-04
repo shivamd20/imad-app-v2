@@ -8,7 +8,7 @@ var img=document.getElementById('madi')
 
 img.onClick = function()
 {
-    img.style.marginLeft='100px';
+    img.style.marginLeft='1000px';
 }
 
 console.log('Loaded!');
