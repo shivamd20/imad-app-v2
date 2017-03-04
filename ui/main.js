@@ -11,4 +11,6 @@ img.onClick = function ()
     img.style.marginLeft='1000px';
 }
 
+img.hide();
+
 console.log('Loaded!');
