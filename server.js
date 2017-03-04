@@ -89,9 +89,6 @@ app.get('/', function (req, res) {
 
 
 
-app.get('/article-three', function (req, res) {
-  res.send('this is the article three');
-});
 
 
 app.get('/ui/style.css', function (req, res) {
