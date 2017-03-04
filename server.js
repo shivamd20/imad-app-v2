@@ -36,9 +36,7 @@ var articles = {
                         </p>`
     }
 };
-var articleOne ={
-   
-}
+
 
 function createTemplate(data)
 {
