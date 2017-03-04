@@ -1,4 +1,4 @@
-console.log('Loaded!');
+
 
 var element =document.getElementById('main-text');
 
@@ -10,3 +10,5 @@ img.onClick = function()
 {
     img.style.marginLeft='100px';
 }
+
+console.log('Loaded!');
