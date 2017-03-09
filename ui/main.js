@@ -16,7 +16,13 @@ button.onclick = function ()
             {
                 var counter=request.responseText;
                 var span=document.getElementById('count');
+                
+                
                 span.innerHtml=counter.toString();
+                
+                span.remove();
+                
+                
                 
                 console.log('done success');
             }
@@ -31,7 +37,6 @@ button.onclick = function ()
     
     request.open('GET','http://shivamd20.imad.hasura-app.io/counter',false);
     request.send(null);
-    
     console.log("clicked");
     
 };
