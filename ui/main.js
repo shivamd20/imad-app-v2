@@ -20,7 +20,6 @@ button.onclick = function ()
                 
                 span.innerHtml=counter.toString();
                 
-                span.remove();
                 
                 
                 
