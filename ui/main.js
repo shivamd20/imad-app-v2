@@ -27,5 +27,5 @@ button.onclick = function ()
     
     console.log("clicked");
     
-}
+};
 console.log('Loaded!');
