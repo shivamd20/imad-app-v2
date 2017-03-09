@@ -25,7 +25,7 @@ button.onclick = function ()
             
         }
         
-        console.log("on ready state change method executed");
+        console.log("on ready state change method executed"+request.responseText);
         
     };
     
