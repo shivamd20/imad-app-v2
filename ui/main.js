@@ -7,7 +7,8 @@ button.onclick = function ()
 {
     var request=new XMLHttpRequest();
     
-    request.onreadystatechange=function()
+    
+    request.onreadystatechange=function ()
     {
         if(request.readyState===XMLHttpRequest.DONE)
         {
@@ -23,6 +24,8 @@ button.onclick = function ()
             }
             
         }
+        
+        console.log("on ready state change method executed");
         
     };
     
