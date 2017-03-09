@@ -21,6 +21,9 @@ button.onclick = function ()
                 button.innerHtml=counter.toString();
                 
                 
+                span.innerHTML=counter.toString();
+                
+                
                 
                 
                 console.log('done success');
